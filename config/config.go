@@ -100,7 +100,7 @@ var Mainnet = CHAIN_CONFIG{Name: "mainnet",
 	GETWORK_Default_Port:    10100,
 	RPC_Default_Port:        10102,
 	Wallet_RPC_Default_Port: 10103,
-	Dev_Address:             "dero1qykyta6ntpd27nl0yq4xtzaf4ls6p5e9pqu0k2x4x3pqq5xavjsdxqgny8270",
+	Dev_Address:             "deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xc785m4v5wfgy5qgwp3cq",
 	HF1_HEIGHT:              21480,
 	HF2_HEIGHT:              29000,
 	MAJOR_HF2_HEIGHT:        481600,
@@ -111,7 +111,7 @@ var Mainnet = CHAIN_CONFIG{Name: "mainnet",
 		"00" + // Dest is DERO network
 		"00" + // PREMINE_FLAG
 		"c0d7e98fdf23" + // PREMINE_VALUE
-		"2c45f753585aaf4fef202a658ba9afe1a0d3250838fb28d534420050dd64a0d301", // miners public key
+		"", // miners public key
 
 }
 
@@ -121,7 +121,7 @@ var Testnet = CHAIN_CONFIG{Name: "testnet", // testnet will always have last 3 b
 	RPC_Default_Port:        40402,
 	Wallet_RPC_Default_Port: 40403,
 
-	Dev_Address:      "deto1qy0ehnqjpr0wxqnknyc66du2fsxyktppkr8m8e6jvplp954klfjz2qqdzcd8p",
+	Dev_Address:      "deroi1qyzlxxgq2weyqlxg5u4tkng2lf5rktwanqhse2hwm577ps22zv2x2q9pvfz92xc785m4v5wfgy5qgwp3cq",
 	HF1_HEIGHT:       0, // on testnet apply at genesis
 	HF2_HEIGHT:       0, // on testnet apply at genesis
 	MAJOR_HF2_HEIGHT: 4, // on testnet apply at 4
@@ -132,7 +132,7 @@ var Testnet = CHAIN_CONFIG{Name: "testnet", // testnet will always have last 3 b
 		"00" + // Dest is DERO network
 		"00" + // PREMINE_FLAG
 		"c0d7e98fdf23" + // PREMINE_VALUE
-		"1f9bcc1208dee302769931ad378a4c0c4b2c21b0cfb3e752607e12d2b6fa642500", // miners public key
+		"", // miners public key
 }
 
 // mainnet has a remote daemon node, which can be used be default, if user provides a  --remote flag
